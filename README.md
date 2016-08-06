@@ -6,7 +6,7 @@ ROS node and test application for RPLIDAR
 How to build rplidar ros package
 =====================================================================
     1) Clone this project to your catkin's workspace src folder
-    2) Running catkin_make to build rplidarNode and rplidarNodeClient
+    2) Run catkin_make to build rplidarNode and rplidarNodeClient
 
 For GMapping SLAM on ROS, the laser scan message created by RPLIDAR node is modified to use a frame rotated by 180 degrees. Using this 
 frame, the resulting min and max angle will be approximately equal to -3.14 and 3.14 according to GMapping condition.
